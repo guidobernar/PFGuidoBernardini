@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="./principal.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body id="body">
+
+    <nav class="navbar bg-primary  navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./services.html">servicios tecnicos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./empresa.html">Empresa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./productos.html">Todos los productos</a></li>
+                    <li><a class="dropdown-item" href="#">Productos destacados</a></li>
+                    <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+    <h1>Nuestros productos</h1>
+        <section id="productos">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imagenes/taladro.jpg" class="d-block w-100" alt="Imagen 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/taladrobosch.jpg" class="d-block w-100" alt="Imagen 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/taladrodewalt.jpg" class="d-block w-100" alt="Imagen 3">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/lijadorabosch.jpg" class="d-block w-100" alt="Imagen 4">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/lijadoradewalt.jpg" class="d-block w-100" alt="Imagen 5">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/lijadoramilwaukee.jpg" class="d-block w-100" alt="Imagen 6">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/circularbosch.jpg" class="d-block w-100" alt="Imagen 7">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/sierracirculardewalt.jpg" class="d-block w-100" alt="Imagen 8">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/circularmilwaukee.jpg" class="d-block w-100" alt="Imagen 9">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+          <div class="imagen-grid">
+            <div class="imagen"><img src="./Imagenes/taladro.jpg" alt="Imagen 1"></div>
+            <div class="imagen"><img src="/Imagenes/taladrobosch.jpg" alt="Imagen 2"></div>
+            <div class="imagen"><img src="./Imagenes/taladrodewalt.jpg" alt="Imagen 3"></div>
+            <div class="imagen"><img src="./Imagenes/lijadorabosch.jpg" alt="Imagen 4"></div>
+            <div class="imagen"><img src="./Imagenes/lijadoradewalt.jpg" alt="Imagen 5"></div>
+            <div class="imagen"><img src="./Imagenes/lijadoramilwaukee.jpg" alt="Imagen 6"></div>
+            <div class="imagen"><img src="./Imagenes/circularbosch.jpg" alt="Imagen 7"></div>
+            <div class="imagen"><img src="./Imagenes/sierracirculardewalt.jpg" alt="Imagen 8"></div>
+            <div class="imagen"><img src="./Imagenes/circularmilwaukee.jpg" alt="Imagen 9"></div>
+          </div>
+          
+
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+<hr><hr><hr>
+<footer>
+  <section id="RedesSociales"> <!-- Pequeños logos de las redes -->
+      <a href="LinkDeInstagram"> <img src="./Imagenes/instagram.png" alt="Instagram"/> </a>
+      <a href="LinkDeFacebook"> <img src="./Imagenes/facebook.svg" alt="Facebook"/> </a>
+      <a href="LinkDeYoutube"> <img src="./Imagenes/Youtube_logo.png" alt="Youtube"/> </a>
+      <a href="LinkDeTikTok"> <img src="./Imagenes/tiktok-logo-0-1.png" alt="TikTok"/> </a>
+      <a href="LinkDeTwitter"> <img src="./Imagenes/twitter.webp" alt="Twitter"/> </a>
+  </section>
+  <section id="MediosDePago"> <!-- Pequeños logos de las tarjetas aceptadas -->
+     <div>
+      <h3>MEDIOS DE PAGO</h3>
+     </div>
+      <img src="./Imagenes/abnelco.webp" alt="NombreDeLaTarjeta"/>
+      <img src="./Imagenes/amreican.jpg" alt="NombreDeLaTarjeta"/>
+      <img src="./Imagenes/cabal.jpg" alt="NombreDeLaTarjeta"/>
+      <img src="./Imagenes/diners.jpg" alt="NombreDeLaTarjeta"/>
+      <img src="./Imagenes/mastercard.jpg" alt="NombreDeLaTarjeta"/>
+      <img src="./Imagenes/naranja.jpg" alt="NombreDeLaTarjeta"/>
+      <img src="./Imagenes/visa.jpg" alt="NombreDeLaTarjeta"/>
+  </section>
+
+  <section id="Contacto">
+      <div>
+          <h3>CONTACTANOS</h3>
+      </div>
+      <p>Numero de telefono</p>
+      <p>Numero de celular</p>
+      <p>mail</p>
+      <p>Dirección</p>
+
+  </section>
+</footer>
+
+</html>
